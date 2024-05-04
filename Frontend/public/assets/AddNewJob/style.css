@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Setting up body font */
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* Main wrapper styling */
+  .formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+  }
+  
+  /* Form wrapper styling */
+  .formbold-form-wrapper {
+    margin: 0 auto;
+    max-width: 570px;
+    width: 100%;
+    background: #f9f9f9; /* Light background color */
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  /* Input group styling */
+  .formbold-input-group {
+    margin-bottom: 24px; /* Increased spacing between input groups */
+  }
+  
+  /* Form input styling */
+  .formbold-form-input {
+    width: 100%;
+    padding: 14px 20px; /* Adjusted padding for better input field proportion */
+    border-radius: 8px; /* Rounded corners */
+    border: 1px solid #ddd; /* Light border color */
+    background: #fff; /* White background */
+    font-size: 16px;
+    color: #333; /* Darkened text color for better contrast */
+    outline: none;
+    transition: border-color 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Placeholder styling */
+  .formbold-form-input::placeholder {
+    color: #999; /* Lighter placeholder color */
+  }
+  
+  /* Focus state styling */
+  .formbold-form-input:focus {
+    border-color: #6a64f1; /* Highlighted border color */
+    box-shadow: 0px 3px 8px rgba(106, 100, 241, 0.1); /* Light shadow on focus */
+  }
+  
+  /* Form label styling */
+  .formbold-form-label {
+    color: #333; /* Darkened label color */
+    font-size: 14px;
+    line-height: 20px;
+    display: block;
+    margin-bottom: 8px; /* Reduced margin for tighter alignment */
+  }
+  
+  /* Button styling */
+  .formbold-btn {
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 8px; /* Rounded corners */
+    padding: 14px 0; /* Adjusted padding for better button height */
+    border: none;
+    font-weight: 500;
+    background-color: #6a64f1; /* Primary color */
+    color: #fff; /* White text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+    margin-top: 20px; /* Reduced margin for tighter alignment */
+  }
+  
+  /* Hover state for button */
+  .formbold-btn:hover {
+    background-color: #544de2; /* Darker color on hover */
+  }
+  
